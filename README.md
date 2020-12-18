@@ -15,15 +15,15 @@
 
  - Install
 
-> npm i --save large-localstorage
+> npm i --save new-large-localstorage
 
 
  - API
- 
+
 API is same with `window.localstorage`.
 
 ```ts
-import lls from 'large-localstorage';
+import lls from 'new-large-localstorage';
 
 lls.setItem('string', 'hello world!');
 // 50 Mb content
